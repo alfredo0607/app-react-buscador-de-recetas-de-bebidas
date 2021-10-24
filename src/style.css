@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: Raleway, HelveticaNeue, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  color: #222;
+}
+
+header {
+  background: red;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+  font-size: 23px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 27px;
+  padding: 0 20px;
+  margin: 2rem;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+  padding-left: 9px;
+  box-sizing: border-box;
+}
+
+.u-full-width {
+  transition: border 0.3s ease;
+  width: 80%;
+  box-sizing: border-box;
+  padding: 7px;
+  margin: 2px;
+}
+
+input:focus,
+select:focus {
+  border: 2px solid red;
+  outline: 0;
+}
+
+button {
+  display: inline-block;
+  transition: background 0.3s ease;
+  height: 38px;
+  padding: 0 30px;
+  margin: 1rem;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+  background: red;
+  color: white;
+}
+
+button:focus,
+button:hover {
+  color: red;
+  border-color: red;
+  background: white;
+  outline: 0;
+}
+
+.error {
+  text-align: center;
+  margin: 0 auto;
+  background: rgba(255, 0, 0, 0.6);
+  color: white;
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 2rem;
+}
+
+.contenedor-1 {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+#product-card {
+  overflow: hidden;
+  width: 300px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  margin: 5px;
+  margin-bottom: 2rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.descripcion .ingredientes .lista {
+  text-align: justify;
+  list-style: none;
+}
